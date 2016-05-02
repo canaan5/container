@@ -1,0 +1,26 @@
+{
+    "name": "canaan5/container",
+    "description": "Innovating Container Component",
+    "license": "MIT",
+    "homepage": "https://github.com/canaan5",
+    "support": {
+        "issues": "https://github.com/canaan5/innovating/issues",
+        "source": "https://github.com/canaan5/innovating"
+    },
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "container-interop/container-interop": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Innovating\\Container\\": ""
+        }
+    },
+    "minimum-stability": "dev"
+}
